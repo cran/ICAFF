@@ -1,1 +1,5 @@
-export("ICA")
+export(ICA)
+S3method(print, ICA)
+S3method(summary, ICA)
+S3method(plot, ICA)
+S3method(coef, ICA)
